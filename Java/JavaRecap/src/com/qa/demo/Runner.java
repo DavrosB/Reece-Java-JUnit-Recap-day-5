@@ -9,18 +9,26 @@ public class Runner {
 	public static void main(String[] args) {
 		// What the method actually does, it prints out a line
 		// System.out.println("Hello World!");
-		printName("Reece");
-		printMessage();
+//		printName("Reece");
+//		printMessage();
+		
+		newClass.doSomething();
+
 	}
 	
-	// Method to be called 
-	public static void printMessage() {
-		System.out.println("Hello World");
-	}
+//	// Method to be called 
+//	public static void printMessage() {
+//		System.out.println("Hello World");
+//	}
+//	
+//	// Method that takes in a parameter
+//	public static void printName(String name) {
+//		System.out.println("Hello " + name);
+//	}
 	
-	// Method that takes in a parameter
-	public static void printName(String name) {
-		System.out.println("Hello " + name);
-	}
+//	ctrl / 
+//	ctrl space opens up reccomended stuff
+	
+
 
 }
