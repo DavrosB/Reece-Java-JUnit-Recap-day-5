@@ -12,9 +12,10 @@ public class Runner {
 		
 //		stackDemo.firstLayer();
 //		System.out.println(stackDemo.firstLayer(5));
-		stackDemo.firstLayerString();
+//		stackDemo.firstLayerString();
+//		StackExercise.primary("Reece");
+		Scope.fakeMethod();
+		Scope.newMethod();
 	}
 	
-	
-
 }
