@@ -1,5 +1,9 @@
 package com.qa.controlFlow;
 
+import com.qa.operators.conditionals;
+import com.qa.operators.demoOperators;
+import com.qa.recap.methods;
+
 public class Runner {
 	
 	// Flow of control starts with Main
@@ -14,8 +18,24 @@ public class Runner {
 //		System.out.println(stackDemo.firstLayer(5));
 //		stackDemo.firstLayerString();
 //		StackExercise.primary("Reece");
-		Scope.fakeMethod();
-		Scope.newMethod();
+//		Scope.fakeMethod();
+//		Scope.newMethod();
+//		methods.hello();
+//		
+//		methods.second();
+//		methods.first();
+//		
+//		demoOperators.intMethod();
+//		
+//		conditionals.conditionals();
+		
+//		conditionals.testMethod();
+		
+		String returnString = conditionals.testMethod();
+		System.out.println(returnString);
+;		
+		
+		
 	}
 	
 }
