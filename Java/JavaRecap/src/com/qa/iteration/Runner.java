@@ -9,7 +9,9 @@ public class Runner {
 //		Demo.doWhileLoop();
 //		FlowChart.flowChart();
 //		FlowChart.flowChartTwo();
-		FlowChart.countTen();
+//		FlowChart.countTen();
+//		Coins.change(5f, 62.50f);
+		Coins2.changeCalculate(17.56f, 78.93f);
 	}
 
 }
