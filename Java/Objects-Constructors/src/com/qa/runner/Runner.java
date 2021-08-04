@@ -1,5 +1,8 @@
 package com.qa.runner;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.qa.model.Cake;
 import com.qa.model.CakeEncapsulated;
 
@@ -37,8 +40,23 @@ public class Runner {
 		safeCake.setColour("purple");
 		System.out.println(safeCake.getColour());
 		
+//		List<CakeEncapsulated> cakeList = new ArrayList<>();
+//		
+//		CakeEncapsulated newerCake = new CakeEncapsulated("pink", "almondy", 4, false, 0);
+//		cakeList.add(newerCake);
+//		cakeList.add(newerCake);
+//		System.out.println(cakeList);
+		
+		// Creating an array list that takes in CakeEncapsulated..
+		List<CakeEncapsulated> cakeList = new ArrayList<>();
+		
+		// Adding a cake that has already been constructed
+		cakeList.add(safeCake);
+		
+		System.out.println(cakeList);
+		
 		
 		
 	}
-
+	
 }
