@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.qa.model.Cake;
+import com.qa.model.CakeClassMembers;
 import com.qa.model.CakeEncapsulated;
 
 public class Runner {
@@ -54,6 +55,26 @@ public class Runner {
 		cakeList.add(safeCake);
 		
 		System.out.println(cakeList);
+		
+		CakeClassMembers brandNewcake1 = new CakeClassMembers("blue", "minty", 5, false);
+		CakeClassMembers brandNewcake2 = new CakeClassMembers("blue", "minty", 5, false);
+		CakeClassMembers brandNewcake3 = new CakeClassMembers("blue", "minty", 5, false);
+		CakeClassMembers brandNewcake4 = new CakeClassMembers("blue", "minty", 5, false);
+		
+		// When accessing a static value or method, you want to access the class and not the object
+		System.out.println(CakeClassMembers.numberOfCakes);
+		
+		// Accessing the class then accessing the method
+		CakeClassMembers.sayHello();
+		
+		// Accessing it through the OBJECT
+		brandNewcake1.sayHello2();
+		brandNewcake1.sayHello();
+		
+		System.out.println(brandNewcake1.numberOfCakes);
+		System.out.println(brandNewcake2.numberOfCakes);
+		System.out.println(brandNewcake3.numberOfCakes);
+		System.out.println(brandNewcake4.numberOfCakes);
 		
 		
 		
