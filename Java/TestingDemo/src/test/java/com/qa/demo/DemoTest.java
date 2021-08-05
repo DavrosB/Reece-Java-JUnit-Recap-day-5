@@ -1,6 +1,7 @@
 package com.qa.demo;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -21,7 +22,7 @@ public class DemoTest {
 		
 		// Arrange - Grabbing and creating any resources we need
 		int startNum = 2;
-		int addNum = 3;
+		int addNum = 2;
 		
 		int result;
 		
@@ -40,7 +41,7 @@ public class DemoTest {
 	public void twoTimesThreeIsSix() {
 		
 		int startNum = 2;
-		int multiplyNum = 4;
+		int multiplyNum = 3;
 		
 		int result = startNum * multiplyNum;
 		
@@ -54,5 +55,36 @@ public class DemoTest {
 		String response = "Item added";
 		
 	}
+	
+	// Test whether a testString is the colour "red"
+	
+	@Test
+	public void isStringRed() {
+		
+		// Arrange
+		String colour = "blue";
+		
+		// Act
+		
+		// You will be running a method, a service
+		colour = "red";
+		
+		// Assert
+//		assertEquals("The string should be red", "red", colour);
+	}
+	
+	@Test
+	public void isBoolTrue() {
+		
+		// Arrange
+		boolean boolTest = true;
+		
+		// Act
+		
+		// Assert
+		assertTrue("Expect boolTest to be true", boolTest);
+	}
+	
+	
 
 }
