@@ -8,6 +8,9 @@ public class CakeEncapsulated {
 	private boolean sprinkles;
 	private int numberOfCandles;
 	
+	static int numberOfCakes;
+	static String cakeTinName; 
+	
 	public CakeEncapsulated(String colour, String flavour, int layers, boolean sprinkles, int numberOfCandles) {
 		super();
 		this.colour = colour;
