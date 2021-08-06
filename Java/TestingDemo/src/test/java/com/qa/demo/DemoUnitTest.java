@@ -5,6 +5,8 @@ import static org.junit.Assert.assertEquals;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import com.qa.demo.Demo;
+
 @SpringBootTest
 public class DemoUnitTest {
 	
