@@ -9,6 +9,7 @@ public class TestingDemoApplication {
 	public static void main(String[] args) {
 //		SpringApplication.run(TestingDemoApplication.class, args);
 		Demo.printsHello();
+		VehicleService.createVehicle("Red", 4, 8, true);
 	}
 
 }
